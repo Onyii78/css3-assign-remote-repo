@@ -1,0 +1,262 @@
+*{
+    font-family: 'Abel', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Abel', sans-serif;
+}
+
+.header.container{
+    background-color: white;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+}
+
+#logobox{
+    width: 250px;
+    height: 80px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+#logobox img{
+    width: 100%;
+    height: auto;
+}
+
+ul#menu{
+    list-style-type: none;
+    background-color: black;
+    padding: 25px 50px;
+}
+
+ul#menu li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#ordersection{
+    background-color: #ddd;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+}
+
+#section-padding{
+    padding: 30px 10px;
+}
+
+
+#text-burger{
+    padding-top: 10px;
+    background-color:#ddd;
+    text-align: center;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.card{
+    background: white;
+    border-radius: 20px;
+    padding: 5px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 4px 4px 4px 4px silver;
+}
+
+.card img{
+    padding: 10px;
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.card >a{
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cart-button{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+.span{
+    color: green;
+    font-weight: bold;
+}
+
+.cart a{
+    background-color: red;
+    color: #fff;
+    padding: 12px 12px;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px rgb(133, 127, 127);
+}
+
+.review{
+    background-color: #f2efef;
+    margin-bottom: 50px;
+    padding: 10px;
+    box-shadow: 1px 1px 1px 1px black; 
+    box-sizing: border-box;
+}
+
+#reviewsection{
+    background-color: #636161;
+    box-sizing: border-box;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-white{
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.profile-review >img{
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+.footersection{
+    background-color: #000;
+    padding: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.name{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.quote{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+@media (max-width: 600px) or (min-width: 600px){
+#logobox{
+    width: 150px;
+    height: 50px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+#logobox img{
+    width: 100%;
+    height: auto;
+}
+
+.bannersection{
+    background-image: url("../images/mobile-banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: white;
+}
+
+.overlay{
+    padding: 100px 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+}
+
+.overlay h2{
+font-size: 30px;
+}
+
+.overlay p{
+    font-size: 15px;
+}
+}
+
+
+@media only screen and (min-width: 992px) {
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+ul#menu{
+    background-color: #fff;
+}
+
+ul#menu li a{
+    color: #000;
+    display: block;
+    font-weight: bold;
+    padding: 10px;
+}
+
+ul#menu li{
+    float: left;
+}
+
+.bannersection{
+    background-image: url("../images/banner1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+}
+
+.overlay{
+    padding: 200px 10px;
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+#bannercontent{
+    color: white;
+    margin-left: 20%;
+    padding-right: 30px;
+}
+#bannercontent h2{
+font-size: 37px;
+}
+
+#bannercontent p{
+font-size: 25px;
+}
+
+.container-fluid{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+}
