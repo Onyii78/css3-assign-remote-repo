@@ -10,42 +10,49 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .header.container{
-    background-color: transparent;
+    padding-left: 20px;
 }
 
 .navbar{
     display: flex;
     flex-direction: column;
     background-color: transparent;
+    margin-bottom: 20px;
 }
 
 #logobox{
-    width: 100%;
-    height: 200px;
-    margin-bottom: 10px;
+    width: 100px;
+    height: 50px;
     text-decoration: none;
     background-color: transparent;
 }
 
 #logobox img{
-    width: 200%;
+    width: 100%;
     height: auto;
     background-color: transparent;
 }
 
 ul#menu{
     list-style-type: none;
-    padding: 30px 50px;
+    padding: 0px 30px;
 }
 
 ul#menu li a{
     color: white;
     text-decoration: none;
     display: block;
-    margin-bottom: 10px;
-    font-size: 25px;
+    margin-bottom: 20px;
+    font-size: 15px;
     font-weight: bold;
 }
+
+#general-overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+
 
 #ordersection{
     background-color: #ddd;
@@ -62,7 +69,7 @@ ul#menu li a{
 
 
 #text-burger{
-    padding-top: 10px;
+    padding-top: 50px;
     background-color:#ddd;
     text-align: center;
     font-weight: bold;
@@ -135,7 +142,7 @@ ul#menu li a{
     color: white;
     font-size: 45px;
     font-weight: bold;
-    padding: 10px 20px;
+    padding: 30px 20px;
     font-family: 'Abel', sans-serif
 
 }
@@ -168,10 +175,11 @@ ul#menu li a{
 @media (max-width: 600px) or (min-width: 600px){
 #logobox{
     width: 150px;
-    height: 150px;
-    margin-bottom: 10px;
+    height: 50px;
+    margin-bottom: 20px;
     text-decoration: none;
-    padding-top: 30px;
+    padding-top: 5px;
+
 }
 
 #logobox img{
@@ -180,7 +188,7 @@ ul#menu li a{
 }
 
 .bannersection{
-    background-image: url("../images/burger-banner4.jpg");
+    background-image: url("../images/banner-mobile.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -188,18 +196,34 @@ ul#menu li a{
 }
 
 .overlay{
-    padding: 200px 10px;
-    background-color: rgba(0, 0, 0, 0.1);
-    display: flex;
+    padding-bottom: 80px;
     justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-left: 15%;
 }
 
 .overlay h2{
-font-size: 30px;
+font-size: 60px;
+font-weight: bold;
+line-height: 60px;
+
 }
 
 .overlay p{
-    font-size: 15px;
+    font-size: 20px;
+    line-height: 30px;
+}
+#bannercontent{
+    color: white;
+    justify-content: center;
+    padding: 0px 150px 70x 70px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+
 }
 }
 
@@ -209,11 +233,7 @@ font-size: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-
-
-ul#menu{
-    background-color: transparent;
+    padding-top: 30px;
 }
 
 ul#menu li a{
@@ -228,7 +248,7 @@ ul#menu li{
 }
 
 .bannersection{
-    background-image: url("../images/burger-banner4.jpg");
+    background-image: url("../images/banner-burger4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -236,11 +256,12 @@ ul#menu li{
 }
 
 .overlay{
-padding: 200px 150px;
-    display: flex;
-    justify-content: left;
-    background-color: rgba(0, 0, 0, 0.1);
-
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 220px;
+    padding-top: 50px;
+    padding-left: 30%;
 }
 
 
@@ -248,18 +269,20 @@ padding: 200px 150px;
     color: white;
     margin-left: 20%;
     margin-right: 30%;
-    padding-right: 30px;
-    padding-left: 40px;
+    justify-content: center;
+    padding: 50px 50px;
+    display:flex ;
+    justify-content: center;
 }
 .overlay h2{
-font-size: 37px;
+font-size: 65px;
 font-weight: bold;
-line-height: 50px;
+line-height: 60px;
 }
 
 .overlay p{
-font-size: 15px;
-line-height: 25px;
+font-size: 28px;
+line-height: 30px;
 }
 
 .container-fluid{
