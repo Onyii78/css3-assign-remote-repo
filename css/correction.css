@@ -214,6 +214,7 @@ line-height: 40px;
 .overlay p{
     font-size: 15px;
     line-height: 20px;
+}
 
 #bannercontent{
     color: white;
@@ -223,7 +224,6 @@ line-height: 40px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
-
 }
 }
 
@@ -271,7 +271,7 @@ ul#menu li{
     margin-right: 30%;
     justify-content: center;
     padding: 50px 50px;
-    display:flex ;
+    display: flex;
     justify-content: center;
 }
 .overlay h2{
@@ -290,5 +290,4 @@ line-height: 30px;
     margin-left: auto;
     margin-right: auto;
 }
-
 }
