@@ -196,29 +196,29 @@ ul#menu li a{
 }
 
 .overlay{
-    padding-bottom: 80px;
+    padding-bottom: 40px;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
     padding-top: 5px;
-    padding-left: 15%;
+    padding-left: 20%;
 }
 
 .overlay h2{
-font-size: 60px;
+font-size: 40px;
 font-weight: bold;
-line-height: 60px;
+line-height: 40px;
 
 }
 
 .overlay p{
-    font-size: 20px;
-    line-height: 30px;
-}
+    font-size: 15px;
+    line-height: 20px;
+
 #bannercontent{
     color: white;
     justify-content: center;
-    padding: 0px 150px 70x 70px;
+    padding: 0px 20px 70x 70px;
     display: flex;
     margin-left: auto;
     margin-right: auto;
