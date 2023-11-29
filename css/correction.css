@@ -64,16 +64,7 @@ ul#menu li a{
 }
 
 #section-padding{
-    padding: 30px 10px;
-}
-
-
-#text-burger{
-    padding-top: 50px;
-    background-color:#ddd;
-    text-align: center;
-    font-weight: bold;
-    font-size: 45px;
+    padding: 20px 10px;
 }
 
 .card{
@@ -81,7 +72,7 @@ ul#menu li a{
     border-radius: 20px;
     padding: 5px;
     margin-bottom: 30px;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     box-shadow: 4px 4px 4px 4px silver;
@@ -196,18 +187,18 @@ ul#menu li a{
 }
 
 .overlay{
-    padding-bottom: 30px;
+    padding-bottom: 60px;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 5px;
+    padding-top: 2px;
     padding-left: 20%;
 }
 
 .overlay h2{
-font-size: 40px;
+font-size: 25px;
 font-weight: bold;
-line-height: 40px;
+line-height: 30px;
 
 }
 
@@ -219,12 +210,21 @@ line-height: 40px;
 #bannercontent{
     color: white;
     justify-content: center;
-    padding: 0px 20px 70x 70px;
+    padding: 30px 40px 70x 70px;
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
+
+#text-burger{
+    padding-top: 30px;
+    background-color:#ddd;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
 }
 
 
@@ -275,14 +275,22 @@ ul#menu li{
     justify-content: center;
 }
 .overlay h2{
-font-size: 65px;
+font-size: 45px;
 font-weight: bold;
-line-height: 60px;
+line-height: 45px;
 }
 
 .overlay p{
 font-size: 28px;
 line-height: 30px;
+}
+
+#text-burger{
+    padding-top: 50px;
+    background-color:#ddd;
+    text-align: center;
+    font-weight: bold;
+    font-size: 45px;
 }
 
 .container-fluid{
