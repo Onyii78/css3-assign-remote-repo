@@ -187,7 +187,7 @@ ul#menu li a{
 }
 
 .overlay{
-    padding-bottom: 60px;
+    padding-bottom: 80px;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
@@ -196,7 +196,7 @@ ul#menu li a{
 }
 
 .overlay h2{
-font-size: 25px;
+font-size: 35px;
 font-weight: bold;
 line-height: 30px;
 
@@ -222,7 +222,7 @@ line-height: 30px;
     background-color:#ddd;
     text-align: center;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 35px;
 }
 
 }
@@ -259,7 +259,7 @@ ul#menu li{
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 130px;
+    padding-bottom: 180px;
     padding-top: 50px;
     padding-left: 30%;
 }
